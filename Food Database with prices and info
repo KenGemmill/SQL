@@ -1,0 +1,24 @@
+CREATE TABLE store(id integer primary key, name text, color text, size text, price integer);
+
+INSERT INTO store VALUES(1,"rice","white","small",3);
+INSERT INTO store VALUES(2,"turkey","brown","medium",7);
+INSERT INTO store VALUES(3,"chicken","Tan","medium",7);
+INSERT INTO store VALUES(4,"broccoli","green","medium",5);
+INSERT INTO store VALUES(5,"ribeye","brown","small",20);
+INSERT INTO store VALUES(6,"filet","brown","small",15);
+INSERT INTO store VALUES(7,"watermelon","green","big",8);
+INSERT INTO store VALUES(8,"grapefruit","orange","medium",4);
+INSERT INTO store VALUES(9,"brisket","brown","big",35);
+INSERT INTO store VALUES(10,"apple","red","small",3);
+INSERT INTO store VALUES(11,"pineapple","yellow","medium",7);
+INSERT INTO store VALUES(12,"cod","white","medium",9);
+INSERT INTO store VALUES(13,"peper","green","small",4);
+INSERT INTO store VALUES(14,"tomatoe","red","small",3);
+INSERT INTO store VALUES(15,"roast","brown","big",25);
+
+select * from store
+ORDER BY PRICE asc;
+
+--display the database ordered by price. 
+SELECT * FROM store
+ORDER BY price asc;
